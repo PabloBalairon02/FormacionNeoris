@@ -14,7 +14,7 @@ public class Factura {
 		System.out.println("Cantidad " + "\t" + unidades);
 		System.out.println("Precio " + "\t" + precio);
 		System.out.println("Importe " + "\t" + importe);
-		System.out.println("Iva " + "\t" + (importe/1.21));
+		System.out.println("Iva " + "\t" + (importe*0.21));
 		System.out.println("Total " + "\t" + total);
 	}
 }
